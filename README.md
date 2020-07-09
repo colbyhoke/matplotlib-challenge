@@ -17,9 +17,8 @@ Analysis file:
 <br>--------------------------------------------------------------------------------------------
 
 ## Reports in file:
-### Number of entries / mice in the merged dataframe
-Merged two dataframes from Mouse_metadata.csv.csv and Study_results.csv.csv
-Confirm # of entries and # of datapoints
+### Merge data from 2 CSVs and cofirm successful merge
+Merge two dataframes from Mouse_metadata.csv.csv and Study_results.csv.csv. Confirm # of entries and # of datapoints.
 
 ### Check for duplicate data entries
 Based on Mouse ID and Timepoint
@@ -29,7 +28,7 @@ All data, duplicated or not
 
 ### Create clean dataframe
 Remove the mice with any duplicates
-We can't tell which duplicated entries are valid, so remove the mouse entirely to not skew data
+* We can't tell which duplicated entries are valid, so remove the mouse entirely to not skew results
 
 ### Number of entries / mice in the clean dataframe
 Confirm # of entries and # of datapoints
@@ -40,22 +39,22 @@ Mean, median, variance, standard deviation, and SEM of the tumor volume for each
 * Second table uses a single groupby() function
 
 ### Bar plots
-Using both Pandas's DataFrame.plot() that shows the number of total mice for each treatment regimen throughout the course of the study.
-Using Matplotlib's pyplot that shows the number of total mice for each treatment regimen throughout the course of the study.
+* Use Pandas's DataFrame.plot() that shows the number of total mice for each treatment regimen throughout the course of the study.
+* Use Matplotlib's pyplot that shows the number of total mice for each treatment regimen throughout the course of the study.
 
 ### Pie plots
 Generate a pie plot showing the distribution of female versus male mice using pandas
 Generate a pie plot showing the distribution of female versus male mice using pyplot
 
 ### Quartiles, outliers, and boxplots
-Calculate the final tumor volume of each mouse across four of the most promising treatment regimens.
-Calculate the IQR and quantitatively determine if there are any potential outliers. 
-Built a function to handle repetitive nature of this work.
-Generate a box plot of the final tumor volume of each mouse across four regimens of interest
+* Calculate the final tumor volume of each mouse across four of the most promising treatment regimens.
+* Calculate the IQR and quantitatively determine if there are any potential outliers. 
+* Build a function to handle repetitive nature of this work.
+* Generate a box plot of the final tumor volume of each mouse across four regimens of interest
 
 ### Line and scatter plots
-Generate a line plot of time point versus tumor volume for a mouse treated with Capomulin
-Generate a scatter plot of mouse weight versus average tumor volume for the Capomulin regimen
+* Generate a line plot of time point versus tumor volume for a mouse treated with Capomulin
+* Generate a scatter plot of mouse weight versus average tumor volume for the Capomulin regimen
 
 ### Correlation and regression
 Calculate the correlation coefficient and linear regression model for mouse weight and average tumor volume for the Capomulin regimen
